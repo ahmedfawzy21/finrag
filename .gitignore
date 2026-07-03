@@ -1,0 +1,34 @@
+# Local secrets — never commit real credentials.
+.env
+
+# Build artifacts.
+/finrag
+/out/
+
+# Secrets
+.env
+
+# Build instruction scratch files — not part of the project
+build_finrag.txt
+swap_embedder.txt
+week3_rds.txt
+*.txt
+
+# Claude Code session/state directory
+.claude/
+
+# Go build artifacts
+finrag
+*.exe
+*.test
+*.out
+
+# Stray test uploads
+*.pdf
+*.docx
+
+# IDE/OS
+.vscode/
+.idea/
+*.swp
+.DS_Store
